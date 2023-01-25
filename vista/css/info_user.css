@@ -1,0 +1,54 @@
+.conten_info {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+}
+.conten_camp_info {
+  margin: 25px;
+  text-align: center;
+}
+body {
+  line-height: 1.5;
+}
+.wrap-input100 {
+  width: 100%;
+  height: min-content;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 13px;
+  padding: 10px 30px 9px 22px;
+  margin-bottom: 20px;
+}
+
+.input100 {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: 0 0;
+  font-size: 25px;
+  height: auto;
+  color: rgb(20, 20, 20);
+  line-height: 1.2;
+  padding-right: 15px;
+  border: none;
+}
+
+.label-input100 {
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.bg1 {
+  background-color: #ccc7c798;
+}
+textarea {
+  resize: none;
+}
+.dpl {
+  display: none;
+}

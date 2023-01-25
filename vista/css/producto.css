@@ -1,0 +1,116 @@
+.img_div {
+  width: 50%;
+  border-radius: 10px;
+}
+.img_table {
+  width: 100%;
+  border-radius: 10px;
+}
+.div_img {
+  width: 50%;
+}
+.info-producto {
+  font-size: large;
+}
+.dpl {
+  display: none;
+}
+
+.contenedor-btn-file input[type="file"] {
+  appearance: none;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+}
+.contenedor-btn-file {
+  display: inline-block;
+  position: relative;
+  background-color: #186cc3;
+  color: #fff;
+  border: 0;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: ease-out 120ms background-color;
+}
+.contenedor-btn-file:hover {
+  background-color: #16579b;
+}
+.contenedor-btn-file:active {
+  background-color: #114378;
+}
+
+.contenedor-btn-file label {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.contenedor-btn-file.bordeado {
+  background-color: #fff;
+  border: 2px solid #186cc3;
+  color: #186cc3;
+}
+.contenedor-btn-file.bordeado:hover {
+  background-color: #186cc3;
+  color: #fff;
+}
+
+form input[type="checkbox"] {
+  display: none;
+}
+
+form .check-group label {
+  size: 52px;
+  color: #0774d9;
+}
+form .check-group label {
+  display: inline-block;
+  cursor: pointer;
+  color: #0774d9;
+  position: relative;
+  padding: 5px 15px 5px 51px;
+  font-size: 2em;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+form .radio label:hover,
+form .check-group label:hover {
+  background: rgba(84, 54, 255, 0.1);
+}
+form .radio label:before,
+form .check-group label:before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  left: 15px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: none;
+  border: 3px solid #0774d9;
+}
+form .check-group label:before {
+  border-radius: 3px;
+}
+form .check-group input[type="checkbox"] {
+  display: none;
+}
+form .check-group input[type="checkbox"]:checked + label:before {
+  display: none;
+}
+form .check-group input[type="checkbox"]:checked + label {
+  background: #0774d9;
+  color: #fff;
+  padding: 5px 15px;
+}
